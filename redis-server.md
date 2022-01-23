@@ -34,21 +34,21 @@
     sudo systemctl status redis
 
 
-`redis-server.service - Advanced key-value store
-     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
-     Active: active (running) since Sun 2022-01-23 15:22:23 +04; 22s ago
-       Docs: http://redis.io/documentation,
-             man:redis-server(1)
-    Process: 40963 ExecStart=/usr/bin/redis-server /etc/redis/redis.conf (code=exited, status=0/SUCCESS)
-   Main PID: 40964 (redis-server)
-      Tasks: 4 (limit: 8173)
-     Memory: 1.9M
-     CGroup: /system.slice/redis-server.service
-             └─40964 /usr/bin/redis-server 127.0.0.1:6379
-
-янв 23 15:22:23 echo-huawei systemd[1]: Starting Advanced key-value store...
-янв 23 15:22:23 echo-huawei systemd[1]: redis-server.service: Can't open PID file /run/redis/redis-server.pid (yet?) after start: Operation not permitted
-янв 23 15:22:23 echo-huawei systemd[1]: Started Advanced key-value store.`
+>redis-server.service - Advanced key-value store
+>     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+>      Active: active (running) since Sun 2022-01-23 15:22:23 +04; 22s ago
+>       Docs: http://redis.io/documentation,
+>             man:redis-server(1)
+>    Process: 40963 ExecStart=/usr/bin/redis-server /etc/redis/redis.conf (code=exited, status=0/SUCCESS)
+>   Main PID: 40964 (redis-server)
+>      Tasks: 4 (limit: 8173)
+>     Memory: 1.9M
+>     CGroup: /system.slice/redis-server.service
+>             └─40964 /usr/bin/redis-server 127.0.0.1:6379
+>
+>янв 23 15:22:23 echo-huawei systemd[1]: Starting Advanced key-value store...
+>янв 23 15:22:23 echo-huawei systemd[1]: redis-server.service: Can't open PID file /run/redis/redis-server.pid (yet?) after >start: Operation not permitted
+>янв 23 15:22:23 echo-huawei systemd[1]: Started Advanced key-value store.`
 
 Отключение Redis:
 
